@@ -1,0 +1,17 @@
+{
+  "name": "anbu-black-ops",
+  "version": "1.0.0",
+  "description": "ANBU BLACK OPS — shared-data operative roster",
+  "main": "server.js",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "@vercel/kv": "^3.0.0",
+    "express": "^4.19.2"
+  }
+}
